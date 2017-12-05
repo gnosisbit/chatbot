@@ -106,10 +106,6 @@ var ChatBot = function () {
         var r = new RegExp(pattern.regexp, "i");
         var matches = text.match(r);
 
-        print('matches')
-        print(JSON.stringify(pattern.regexp))
-        print(JSON.stringify(r))
-        print('matches')
         //console.log(matches);
         if (matches) {
           switch (pattern.actionKey) {
